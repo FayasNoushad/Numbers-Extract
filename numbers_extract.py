@@ -1,11 +1,4 @@
-def is_number(word):
-    numbers = list('+1234567890')
-    if word == "":
-        return False
-    for spelling in list(word):
-        if spelling not in numbers:
-            return False
-    return True
+from check_number import is_number
 
 
 def clean(string):
