@@ -21,13 +21,13 @@ def readme(file="README.md"):
 
 setup(
     name="Numbers-Extract",
-    version="1.0.0",
+    version="1.0.1",
     author="FayasNoushad",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    description="",
+    description="A numbers extractor python module",
     license="MIT",
-    url="https://github.com/FayasNoushad/",
+    url="https://github.com/FayasNoushad/Numbers-Extract",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
