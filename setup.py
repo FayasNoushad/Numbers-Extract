@@ -24,8 +24,6 @@ setuptools.setup(
     description="Numbers extract from string",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/FayasNoushad/Numbers-Extract",
-    download_url="https://github.com/FayasNoushad/Numbers-Extract/releases/latest",
     license="MIT",
     author="Fayas Noushad",
     author_email="contact@fayas.me",
@@ -37,11 +35,12 @@ setuptools.setup(
         "Operating System :: OS Independent"
     ],
     project_urls={
+        "Download": "https://github.com/FayasNoushad/Numbers-Extract/releases/latest",
         "Tracker": "https://github.com/FayasNoushad/Numbers-Extract/issues",
-        "Source": "https://github.com/FayasNoushad/Numbers-Extract",
-        "Documentation": "https://numbers-extract.projects.fayas.me",
+        "Source": "https://github.com/FayasNoushad/Numbers-Extract"
     },
     python_requires=">=3.6",
+    py_modules=['numbers_extract'],
     packages=setuptools.find_packages(),
     zip_safe=False,
     install_requires=requirements()
