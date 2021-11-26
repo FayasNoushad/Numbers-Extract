@@ -20,7 +20,7 @@ def readme(file="README.md"):
 
 setuptools.setup(
     name="Numbers-Extract",
-    version="1.0.4",
+    version="1.0.5",
     description="Numbers extract from string",
     long_description=readme(),
     long_description_content_type="text/markdown",
@@ -35,7 +35,6 @@ setuptools.setup(
         "Operating System :: OS Independent"
     ],
     project_urls={
-        "Download": "https://github.com/FayasNoushad/Numbers-Extract/releases/latest",
         "Tracker": "https://github.com/FayasNoushad/Numbers-Extract/issues",
         "Source": "https://github.com/FayasNoushad/Numbers-Extract"
     },
