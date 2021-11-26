@@ -20,7 +20,7 @@ def readme(file="README.md"):
 
 setuptools.setup(
     name="Numbers-Extract",
-    version="1.0.3",
+    version="1.0.4",
     description="Numbers extract from string",
     long_description=readme(),
     long_description_content_type="text/markdown",
