@@ -20,13 +20,12 @@ def readme(file="README.md"):
 
 setuptools.setup(
     name="Numbers-Extract",
-    version="1.0.5",
+    version="1.0.6",
     description="Numbers extract from string",
     long_description=readme(),
     long_description_content_type="text/markdown",
     license="MIT",
     author="Fayas Noushad",
-    author_email="contact@fayas.me",
     classifiers=[
         "Intended Audience :: Developers",
         "Natural Language :: English",
